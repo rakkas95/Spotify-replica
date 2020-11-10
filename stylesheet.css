@@ -1,0 +1,312 @@
+
+
+
+/* LOGIN PAGE STYLING */
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222326;
+    background-color: #fff;
+    margin: 0;
+    padding-bottom: 5px;
+
+}
+
+@font-face {
+    font-family: "Circular";
+    src: url("/fonts/lineto-circular-black.ttf");
+    src: url("/fonts/lineto-circular-pro-bold.ttf")
+        format("embedded-opentype"),
+      url("/fonts/lineto-circular-pro-book.ttf")
+        format("woff"),
+      url("/fonts/lineto-circular-pro-medium.ttf")
+        format("truetype");
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  
+/* background styling   */
+
+
+  /* STYLING FOR HEADER  */
+
+.row.header {
+    border-bottom: 1px solid #d9dadc;
+    padding: 25px 0 10px;
+    text-align: center;
+}
+
+.header .spotify-logo {
+    background-image: url("/spotify-icons-logos/spotify-icons-logos/logos/01_RGB/02_PNG/Spotify_Logo_RGB_Black.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    max-width: 100%;
+    width: 200px;
+    object-fit: cover;
+    height: 66.66px;
+}
+
+/* STYLING FOR LOGIN BODY */
+
+.login-body{
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+
+/* Generic Style for elements */
+
+h1 {
+    color: #000000;
+}
+
+h6{
+    color: #ced0d3;
+}
+
+.h4 .h5 {
+    letter-spacing: normal;
+}
+
+.h5, h5{
+    font-size: 16px;
+    font-weight: 100;
+}
+.h4, h4 {
+    font-size: 18px;
+}
+
+.h4, .h5, .h6, h4, h5, h6 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.h4, .h5, h4, h5 {
+    margin-top: 12px;
+}
+
+.h2, .h3, h1, h2, h3 .h1 {
+    margin: .5em 0 .25em;
+}
+
+/* Button styling */
+
+.btn {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 16px 14px 18px;
+    line-height: 1;
+    letter-spacing: 2px;
+    min-width: 160px;
+    white-space: normal;
+    border-radius: 500px;
+    width: 100%;
+    font-weight: 600;
+    height: 48px;
+}
+
+.btn-fb:hover {
+    color: #fff;
+    background-color: #4162a9;
+}
+.btn-fb {
+    color: #ffffff;
+    background-color: #3b5998;
+}
+
+.btn-apple:hover {
+    color: #fff;
+    background-color: #242424;
+}
+.btn-apple {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.btn-standard {
+    color: #616467;
+    background-color: transparent;
+    border-width: 2px;
+}
+
+.btn-green:hover {
+    color: #fff;
+    background-color: #1DB954;
+    border-color: #1DB954;
+}
+
+.btn-green {
+    color: #fff;
+    background-color: #15883E;
+    border-color: #15883E;
+}
+
+.btn-green.btn-play {
+    color: #fff;
+    background-color: #15883E;
+    border-color: #15883E;
+}
+
+.btn-google:before {
+    content: url("/SVG/google.svg");
+    height: 13px;
+    width: 13px;
+    position: relative;
+    top: 2px;
+    display: inline-block
+
+}
+
+.btn-follow:hover {
+    color: #dcdee0;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-width: 2px;
+    border-color: #dcdee0;
+    outline: none;
+}
+
+.btn-follow {
+    color: #dcdee0;
+    background-color: rgba(0, 0, 0, 0.424);
+    border-width: 2px;
+    border-color: #dcdee0;
+    outline: none;
+}
+
+.btn-circular:hover {
+    border-radius: 500px;
+    color: #dcdee0;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-width: 2px;
+    width: 30px!important;
+}
+
+.btn-circular {
+    border-radius: 500px;
+    color: #dcdee0;
+    background-color: rgba(0, 0, 0, 0.424);
+    border-width: 2px;
+    width: 30px!important;
+}
+
+.title-bk-btn {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 9px 7px 18px;
+    line-height: 1;
+    letter-spacing: 2px;
+    white-space: normal;
+    border-radius: 500px;
+    width: 100%;
+    font-weight: 600;
+    height: 20px;
+}
+
+/* Divider style */
+
+.divider {
+text-transform: uppercase;
+font-size: 12px;
+letter-spacing: 1px;
+padding: 0 20px;
+font-weight: normal;
+}
+
+/* Label style */
+
+label.control-label {
+    margin-top: 10px;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+/* Forgotten password link */
+
+.forgotten-password a {
+    color: #616467;
+    text-decoration: underline;
+}
+
+p {
+    margin: 8px 0 16px;
+}
+
+/* Checkbox editing */
+
+input[type="checkbox"]{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 22px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: 1px solid #c1c3c6;
+}
+
+.remember-me{
+    color: #616467;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 20px;
+}
+
+input[type="checkbox"]:after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    font-size: 15px;
+    color: white;
+    display: none;
+}
+
+input[type="checkbox"]:focus:checked{
+background-color: #1ed760;
+border-color: #1ed760;
+}
+
+input[type="checkbox"]:checked{
+    background-color: #15883E;
+    border-color: #15883E;
+}
+
+input[type=checkbox]:checked:after{
+    display: block
+}
+
+/* terms and conditions text */
+
+.login-btm-txt {
+    font-size: x-small;
+}
+
+.t-c:hover, .p-p:hover {
+    color: #15883E;
+    text-decoration: none;
+}
+
+.t-c, .p-p {
+    color: #1db954;
+}
